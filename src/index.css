@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    width: 3px;
+    background-color: #F5F5F5;
+  
+}
+::-webkit-scrollbar-track{
+    background-color: #ffffff;
+    opacity:0.3;
+}
+::-webkit-scrollbar-thumb{
+    background-color:rgb(229, 231, 235); 
+}
+
+
+.JDKDegradado{
+    background: rgba( 255, 255, 255, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.JDKFondo{
+    background-image: linear-gradient(to right top, #149dcc, #1291bc, #1085ac, #0f799d, #0d6d8e);
+}
