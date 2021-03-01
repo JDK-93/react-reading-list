@@ -3,7 +3,7 @@ Small reading list app that use Google Books API to search for books and add the
 The app structure was developed with user authentication in mind, but since I'm only using [localStorage](https://developer.mozilla.org/es/docs/Web/API/Storage/LocalStorage), I don't use authentication and instead the login screen only asks for your name.
 
 # Demo
-If you want to see a demo of this project, you can visit the following [link](https://jolly-bartik-98238f.netlify.app/).
+If you want to see a demo of this project, you can visit the following [link](https://jdk-reading-list.netlify.app/).
 
 # Installation
 
