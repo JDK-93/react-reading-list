@@ -59,7 +59,7 @@ export const BookAdd = ({ showForm, setShowForm }) => {
             className=" text-base font-thin w-full p-2 bg-dos rounded-xl  "
             type="text"
             name="bookTitle"
-            placeholder=""
+            placeholder="Libro a buscar"
             autoComplete="off"
             required="true"
             value={bookTitle}
