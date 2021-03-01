@@ -46,15 +46,15 @@ const Login = ({ history }) => {
 
                     <form className="" onSubmit={handleSubmit}>
                         <input
-                            type="email"
+                            type="text"
                             name="userEmail"
-                            placeholder="Email"
+                            placeholder="Introduce tu nombre"
                             className="mb-4 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                             onChange={handleInputChange}
                             value={formUser.userEmail}
                         />
 
-                        <input
+                        {/* <input
                             type="password"
                             name="userPass"
                             placeholder="Contraseña"
@@ -62,7 +62,8 @@ const Login = ({ history }) => {
                             maxLength="150"
                             onChange={handleInputChange}
                             value={formUser.userPass}
-                        />
+                        /> */}
+
                         <div className="mt-4 flex items-center justify-center">
                             <button
                                 className="mb-2 self-center text-sm px-4 py-2 mx-2 leading-none font-bold border rounded text-gray-700  border-gray-700 hover:bg-gray-700 hover:text-white"
@@ -73,7 +74,7 @@ const Login = ({ history }) => {
                             </button>
                         </div>
                     </form>
-                    <p className="text-center text-gray-500 text-xs pt-4 cursor-pointer">
+                    {/* <p className="text-center text-gray-500 text-xs pt-4 cursor-pointer">
                         ¿No tienes cuenta?{" "}
                         <span
                             className="underline text-blue-600"
@@ -81,7 +82,7 @@ const Login = ({ history }) => {
                         >
                             Registrate.
                         </span>
-                    </p>
+                    </p> */}
                 </div>
             </div>
         </React.StrictMode>
