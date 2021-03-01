@@ -17,9 +17,9 @@ const Login = ({ history }) => {
         });
     }
 
-    const handleClik = () => {
-        history.replace("/signup");
-    };
+    // const handleClik = () => {
+    //     history.replace("/signup");
+    // };
 
     async function handleSubmit(e) {
         e.preventDefault(); //No queremos que el formulario haga refresh de la  pagina
