@@ -29,7 +29,7 @@ export const Book = ({ book, dispatch }) => {
         </div>
         <div className="w-full p-2 flex justify-end items-center space-x-4 text-cuatro">
           <svg
-            className="w-10 h-10 rounded-lg  border-2 border-transparent hover:border-cuatro"
+            className="w-10 h-10 rounded-lg  border-2 border-transparent hover:border-cuatro cursor-pointer"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -44,7 +44,7 @@ export const Book = ({ book, dispatch }) => {
             ></path>
           </svg>
           <svg
-            className="w-10 h-10 rounded-lg  border-2 border-transparent hover:border-cuatro"
+            className="w-10 h-10 rounded-lg  border-2 border-transparent hover:border-cuatro cursor-pointer"
             class="w-10 h-10"
             fill="none"
             stroke="currentColor"
