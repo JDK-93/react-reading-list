@@ -41,7 +41,7 @@ const Login = ({ history }) => {
             <div className="flex w-full content-center justify-center">
                 <div className="max-w-xs bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                     <h1 className="pb-4 text-center text-gray-700 text-2xl">
-                        Iniciar sesión
+                        Ingresa tu nombre
                     </h1>
 
                     <form className="" onSubmit={handleSubmit}>
