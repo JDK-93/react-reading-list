@@ -1,5 +1,5 @@
-# React Reading Lists
-Small reading list app that use Google Books API to search for books and add them to your reading list.\
+# React: Reading Lists
+Reading lists application that use Google Books API to search for books and add them to your reading list.\
 The app structure was developed with user authentication in mind, but since I'm only using [localStorage](https://developer.mozilla.org/es/docs/Web/API/Storage/LocalStorage), I don't use authentication and instead the login screen only asks for your name.
 
 # Demo
